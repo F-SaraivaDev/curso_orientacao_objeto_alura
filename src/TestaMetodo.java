@@ -11,8 +11,11 @@ public class TestaMetodo {
         Conta contaDoFernando = new Conta();
         Conta contaDaCristiane = new Conta();
 
+
+        contaDoFernando.titular = "Fernando Saraiva";
         contaDoFernando.saldo = 100;
         contaDaCristiane.saldo = 300;
+        System.out.println(contaDoFernando.titular);
         System.out.println("Saldo Cristiane: R$ " + contaDaCristiane.saldo);
         System.out.println("Saldo Fernando: R$ " + contaDoFernando.saldo);
         contaDaCristiane.deposita(300);
